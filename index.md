@@ -1,37 +1,48 @@
-## Welcome to GitHub Pages
+<html><head>
+   
+  </head><body>
+    <div class="cover fundo">
+      <div class="cover-image"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10 col-lg-offset-1 col-sm-12 col-xs-12 col-md-12 text-center">
+            <h1>VEJA A VERDADE QUE NÃO TE CONTAM</h1>
+              <br><h2>ASSISTA ESSE VÍDEO!</h2>
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zAuHDXQl8is" allowfullscreen=""></iframe>
+            </div>
+            <br>
+            <a href="https://selvagemgel.com/desconto-especial" target="_blank" rel="noopener noreferrer" class="mylink"><button type="button" style="width: 100%; padding: 20px 15px; border: 0; background-color: #ff0000; border-radius: 4px; font-size: 28px; color: #ffffff; font-weight: bold; box-shadow: 0px 5px 0px 0px #79111a;">CLIQUE AQUI E SAIBA MAIS!</button></a>
+            <br>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-1462435-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-146280435-1');
+    </script>
+    <script>
+      $(document).ready(function(){
+      			function getSearchParams(k){
+      				var p={};
+      				location.search.replace(/[?&]+([^=&]+)=([^&]*)/gi,function(s,k,v){p[k]=v})
+      				return k?p[k]:p;
+      			}
+      		
+      			var param = Object.values(getSearchParams()).toString();
+      			var parametros = param.replace(new RegExp(",", "g"), "|");
+      
+      			var mylink = 'https://selvagemgel.com/desconto-especial/?src=' + parametros;
+      		
+      			$(".mylink").attr('href', mylink);
+      		});
+    </script>
+  
 
-You can use the [editor on GitHub](https://github.com/potente2020/noticias.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/potente2020/noticias.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+</body></html>
